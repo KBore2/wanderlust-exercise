@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="">Services</a>
+            <a href="">Discovery</a>
+            <a href="">Weather</a>
+            <a href="">My Booking</a>
+            <select name="language">
+                <option value="en">&#x1F1EC;&#x1F1E7;</option>
+                <option value="pr">&#x1F1E7;&#x1F1F7;</option>
+                <option value="fr">&#x1F1EB;&#x1F1F7;</option>
+            </select>
+            <a href="">Login</a>
+            <button>Sign Up</button>
+            
+        </nav>
+        <div class="left-side-panel">
+            <div class="logo">
+                <img src="" alt="logo">
+            </div>
+            <div class="icons">
+                <a href=""><img src="" alt="facebook"></a>
+                <a href=""><img src="" alt="pinterest"></a>
+                <a href=""><img src="" alt="instagram"></a>
+
+            </div>
+        </div>
+        <div class="booking-form">
+            <div class="form-options">
+                <div class="form-buttons">
+                    <button id="b1"><img src="" alt="hotel">Hotel 
+                    </button>
+                    <button><img src="" alt="flight">Flight</button>
+                    <button><img src="" alt="flight">Taxi</button>
+                    <button><img src="" alt="flight">Car</button>
+                </div>
+                <form action="">
+                    <label for="destination">Destination:</label>
+                    <input type="text" placeholder="Surat Thani, Thailand" name="destination">
+                    
+                    <label for="check-in-date">Check-in Date:</label>
+                    <input type="text" placeholder="December 31, 2021" name="check-in-date">
+                    
+                    <label for="check-out-date">Check-out Date:</label>
+                    <input type="text" placeholder="January 1, 2022" name="check-out-date">
+                    
+                    <label for="adults">Adults:</label>
+                    <input type="number" placeholder="02" name="adults">
+                    
+                    <label for="children">Children:</label>
+                    <input type="number" placeholder="No Children" name="children">
+                    
+                    <label for="room">Room:</label>
+                    <input type="number" placeholder="01" name="room">
+                    
+                    <button type="submit"><img src="" alt="search_icon">find</button>
+                </form>
+            </div>
+        </div>
+        <div class="welcome-to-wanderlust">
+            <div class="wanderlust-text">
+                <p id="paragraph1">Welcome to</p>
+                <h1 id="paragraph2">WANDERLUST.</h1>
+                <p id="paragraph3">Jobs fill your pocket, adventures fill your soul</p>
+            </div>
+        </div>
+        <div class="question-mark">
+            <button>
+            </button>
+        </div>
+    </main>
+</body>
+</html>
